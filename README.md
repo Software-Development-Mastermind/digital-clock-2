@@ -6,7 +6,7 @@ _A simple digital clock application written entirely in pure Javascript, HTML an
 
 <br>
 
-See a working version of it [here](https://software-development-mastermind.github.io/digital-clock-lv-2/)
+See a working version of it [here](https://software-development-mastermind.github.io/digital-clock-2/)
 
 <br>
 
