@@ -44,7 +44,7 @@ function displayClock() {
   const timeDisplay = document.getElementById('time-display');
   timeDisplay.textContent = isMilitaryTime 
     ? `${militaryHours}:${minutes}:${seconds}`
-    : `${standardHours}:${minutes}:${seconds} ${militaryHours > 12 ? 'PM' : 'AM'}`;
+    : `${standardHours}:${minutes}:${seconds} ${militaryHours >= 12 ? 'PM' : 'AM'}`;
 }
 
 function addLeadingZero(time) {
